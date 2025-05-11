@@ -7,7 +7,7 @@ export default function NavBare() {
 
      <div className="h-screen flex flex-col rounded-xl justify-center items-center bg-gradient-to-b from-gray-900 to-gray-700 text-white px-4 text-center">
       <h1 className="text-5xl md:text-7xl font-bold mb-6">
-        Hi, I'm <span className="text-blue-400 font-semibold">KIRAN KUMAR T</span>
+        <span className="text-blue-400 font-semibold">KIRAN KUMAR T</span>
       </h1>
       <p className="text-lg md:text-2xl max-w-2xl mb-8">
         A Full Stack Developer passionate about building impactful web apps and solving real-world problems.

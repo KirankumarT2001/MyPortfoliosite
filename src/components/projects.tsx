@@ -1,5 +1,6 @@
 import { project_list } from '@/utils/data'
 import React from 'react'
+import Image from 'next/image'
 
 const projects = () => {
   return (
@@ -15,7 +16,7 @@ const projects = () => {
                 <p className='font-bold text-gray-400'>Made with:    </p>
                 {
                   e.made.map((value,ind) => {
-                    return  <img key={ind} src={value} alt="" className='mr-3 text-2xl m-3' height={38} width={38} />
+                    return  <Image key={ind} src={value} alt="" className='mr-3 text-2xl m-3' height={38} width={38} />
                   })
                 }
               </div>

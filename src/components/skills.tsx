@@ -1,5 +1,6 @@
 import {skill_value} from '@/utils/data'
 import React from 'react'
+import Image from 'next/image'
 
 export const Skills = () => {
   return (
@@ -8,7 +9,7 @@ export const Skills = () => {
         <ul className='flex flex-wrap justify-center gap-2 text-lg'>
           {
             skill_value.map((e,index) => {
-              return <li key={index} className='flex flex-col items-center px-4 py-3'><img className='skill-img' src={e.image} alt="" /><span>{e.title}</span></li>
+              return <li key={index} className='flex flex-col items-center px-4 py-3'><Image className='skill-img' src={e.image} alt="" /><span>{e.title}</span></li>
             })
           }
         </ul>
