@@ -1,8 +1,3 @@
-import { FaGithub } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { SiLeetcode } from "react-icons/si";
-import { TbBrandDiscord } from "react-icons/tb";
-
 export default function Links() {
     return <>
         {/* <footer>
